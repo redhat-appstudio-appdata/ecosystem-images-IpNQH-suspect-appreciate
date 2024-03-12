@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: opc-ecosystem-images
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/crt-nshift-pipelines-tenant/ecosystem-images/opc-ecosystem-images@sha256:6e5b50d2a74d4a974457fe4f78189f3533c5e7441ace23b430844906f0fb7353
         imagePullPolicy: Always
         name: container-image
         ports:
