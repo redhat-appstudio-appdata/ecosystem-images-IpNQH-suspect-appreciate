@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: opc-ecosystem-images
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-nshift-pipelines-tenant/ecosystem-images/opc-ecosystem-images@sha256:6e5b50d2a74d4a974457fe4f78189f3533c5e7441ace23b430844906f0fb7353
+        name: container-image
+        resources: {}
+status: {}
