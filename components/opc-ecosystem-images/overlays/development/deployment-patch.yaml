@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-nshift-pipelines-tenant/ecosystem-images/opc-ecosystem-images@sha256:a1ae41da2dd3cd45b5c99354ee9f93e92f0efecd280e1e4fe6dc7bf4dbf93697
+      - image: quay.io/redhat-user-workloads/crt-nshift-pipelines-tenant/ecosystem-images/opc-ecosystem-images@sha256:5108211dcd8141aba6de70096a5c0db67da685e8ab59db8423e72fc1864399c9
         name: container-image
         resources: {}
 status: {}
